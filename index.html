@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (min-width: 1200px)" href="css/wideScreem.css">
+  <link rel="stylesheet" media="screen and (max-width: 800px)" href="css/mobile.css">
+
+  <title>Financer</title>
+</head>
+<body id="home">
+  <nav id="navbar">
+    <div class="logo">
+      <img src="./images/logo.jpeg" alt="logo image">
+    </div>
+    <ul>
+      <li><a href="#home"> Home </a></li>
+      <li><a href="#what"> What </a></li>
+      <li><a href="#who"> Who</a></li>
+      <li><a href="#contact"> Contact </a></li>
+    </ul>
+  </nav>
+
+  <header id="showcase">
+    <div class="showcase-container">
+      <h1> Financer </h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, possimus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, expedita!
+      </p>
+      <div class="btn">
+        <a href="#what"> Read More</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="what">
+    <h1>
+      <span> 
+        What
+      </span> 
+      We Do?
+    </h1>
+    <div class="what-container">
+      <div class="box">
+        <img src="./images/bank.svg" alt="">
+        <div>
+          <h2>Investment Banking</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, inventore.</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./images/portfolio.svg" alt="">
+        <div>
+          <h2>portfolio Management</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, inventore.</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./images/pen.svg" alt="">
+        <div>
+          <h2>Tax & Custodial</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, inventore.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="who">
+    <div class="img"></div>
+    <div class="info">
+      <h1>
+        <span class="text-primary">Who</span> We Are?
+      </h1>
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Id, non autem. Veniam aliquid autem, qui corrupti cumque ea blanditiis aspernatur temporibus
+          , fugiat, laudantium impedit sint inventore! consequuntur
+          amet fuga expedita porro dolores repellendus voluptatum.
+      </p>
+      <h2>Our team</h2>
+      <ul>
+        <li>Wagdy Samih: CEO </li>
+        <li>Nour: CFO</li>
+        <li>Adam : Lead Accountant </li>
+        <li>Sara: Investment Manager</li>
+        <li>Kara : Senior Manager</li>
+        <li>Mohamed Magdy : Office Boy</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Clients Section -->
+  <section id="clients">
+    <h1>
+      <span class="text-primary">Our</span> Clients
+    </h1>
+    <div class="items">
+      <div> <img src="./images/logos/logo2.png" alt=""> </div>
+      <div> <img src="./images/logos/logo3.png" alt=""> </div>
+      <div> <img src="./images/logos/logo4.png" alt=""> </div>
+      <div> <img src="./images/logos/logo5.png" alt=""> </div>
+    </div>
+  </section>
+  <!-- Contacts Section -->
+  <section id="contact">
+    <div class="form-container" action="">
+      <form>
+        <h1>
+          <span>
+            Contact &nbsp;
+          </span> 
+          Us
+        </h1>
+        <p>Please fill the form bellow to contact us</p>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email address">
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="number" placeholder="Enter your phone number">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" placeholder="Type your message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div id="map"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer">
+    <p>Copyrights &copy; 2021 Financer, All Rights Reserved</p>
+    <p>Made By Wagdy Samih</p>
+  </footer>
+
+
+
+  <!-- JQUERY CDN -->
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+   <!-- LOCAL JS FILE -->
+  <script src="./js/main.js"></script>
+</body>
+</html>

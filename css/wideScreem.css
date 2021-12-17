@@ -1,0 +1,14 @@
+#contact #map  {
+  flex: 2;
+}
+
+.what-container .box{
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+}
+.what-container img{
+  width: 100px;
+  align-self: center;
+  margin-right: 1rem;
+}
